@@ -1,10 +1,6 @@
 # Hong Kong Housing Data Analysis
 
-Group project for SDSC2102 Statistical Methods & Data Analysis at City University of Hong Kong. Course grade: A.
-
-## Overview
-
-This project investigates property-price drivers in Hong Kong using regression and classification. The workflow covers data cleaning, exploratory analysis, feature engineering, multicollinearity checks, model comparison, diagnostics, feature importance, and hypothesis testing.
+An end-to-end analysis of property-price drivers in Hong Kong using regression and classification. The workflow covers data cleaning, exploratory analysis, feature engineering, multicollinearity checks, model comparison, diagnostics, feature importance, and hypothesis testing.
 
 ## Dataset
 
@@ -12,7 +8,7 @@ The analysis reads the public HKProp dataset directly from:
 
 https://raw.githubusercontent.com/just4jc/HKProp/master/HKProp_Dataset.csv
 
-The source contains 1,139 property transactions from 2016–2018 with 28 attributes. The original course presentation identifies Centaline Property as the underlying source. No dataset copy is redistributed here.
+The source contains 1,139 property transactions from 2016–2018 with 28 attributes. The original project presentation identifies Centaline Property as the underlying source. No dataset copy is redistributed here.
 
 ## Methods
 
@@ -33,8 +29,8 @@ The file uses `# %%` cell markers, so it can also be opened interactively in VS 
 ## Project documentation
 
 - `docs/project-summary.md`: objectives, reported results, limitations, and future work.
-- `src/housing_analysis.py`: cleaned analysis code with personal identifiers and stored notebook outputs removed.
+- `src/housing_analysis.py`: cleaned analysis code with stored notebook outputs removed.
 
 ## Notes
 
-The reported metrics come from the original group submission. Results should be interpreted in the context of the small, historical dataset and should not be treated as current property-valuation advice.
+The reported metrics come from the original project analysis. Results should be interpreted in the context of the small, historical dataset and should not be treated as current property-valuation advice.

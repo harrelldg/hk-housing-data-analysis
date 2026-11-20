@@ -8,15 +8,15 @@
 
 ## Approach
 
-The team cleaned 1,139 transactions, removed outliers and multicollinear variables, engineered distance to the city centre, and compared regression and classification models. Saleable area, building age, and location were central variables.
+The analysis cleaned 1,139 transactions, removed outliers and multicollinear variables, engineered distance to the city centre, and compared regression and classification models. Saleable area, building age, and location were central variables.
 
 ## Reported findings
 
 - Saleable area was the strongest positive driver; building age was the strongest negative driver.
-- The final presentation reported Gaussian Process test R² of 0.789 versus 0.658 for Linear Regression, with RMSE of 106.4 versus 141.1.
+- The original analysis reported Gaussian Process test R² of 0.789 versus 0.658 for Linear Regression, with RMSE of 106.4 versus 141.1.
 - Random Forest and Decision Tree achieved 80.6% and 75.4% test accuracy respectively, above the 33.3% three-class random baseline.
 
-These figures are preserved from the submitted presentation rather than newly benchmarked during portfolio preparation.
+These figures are preserved from the original project analysis rather than newly benchmarked during portfolio preparation.
 
 ## Limitations
 
@@ -28,7 +28,3 @@ These figures are preserved from the submitted presentation rather than newly be
 ## Future work
 
 Add interest-rate and policy variables, test time-aware validation and additional models, and evaluate performance on newer transactions.
-
-## Team
-
-Group 3: CLAUDIA Marchelyn, GUNAWAN Harrell Dave, RAHARDJO Marvel Reswanda, and WU Frederico Owen.
